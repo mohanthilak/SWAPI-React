@@ -1,0 +1,29 @@
+.pagination-container{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-buttons{
+    background: none;
+    border: none;
+    margin: 0 5px;
+    text-decoration: underline;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pagination-container-main p{
+    font-size: 16px;
+}
+
+.pagination-container-main p span:hover{
+text-decoration: underline;
+cursor: pointer;
+}
